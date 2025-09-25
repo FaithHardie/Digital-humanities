@@ -1,0 +1,306 @@
+---
+title: "Data processing for elliot smith lyrics"
+author: Faith Hardie
+output: html_notebook
+---
+
+This is my chatgpt assisted data creation/collection of elliot smith lyrics for my digital humanities project.
+
+```{r}
+##libraries
+library(tidyverse)
+```
+
+```{r}
+# DS-403 Project: Elliott Smith Discography Scaffold (No Lyrics Yet)
+
+library(tidyverse)
+
+# Elliott Smith Discography – Albums and Song Titles
+elliott_smith_lyrics <- tibble(
+  album = c(
+    rep("Roman Candle", 9),
+    rep("Elliott Smith", 12),
+    rep("Either/Or", 12),
+    rep("XO", 14),
+    rep("Figure 8", 16),
+    rep("From a Basement on the Hill", 15)  # Total: 78 rows
+  ),
+  song_title = c(
+    # Roman Candle (9)
+    "Roman Candle", "Condor Ave", "No Name #1", "No Name #2", "No Name #3",
+    "Drive All Over Town", "No Name #4", "Last Call", "Kiwi Maddog 20/20",
+
+    # Elliott Smith (12)
+    "Needle in the Hay", "Christian Brothers", "Clementine", "Southern Belle",
+    "Single File", "Coming Up Roses", "Satellite", "Alphabet Town",
+    "St. Ides Heaven", "Good to Go", "The White Lady Loves You More", "The Biggest Lie",
+
+    # Either/Or (12)
+    "Speed Trials", "Alameda", "Ballad of Big Nothing", "Between the Bars",
+    "Pictures of Me", "No Name No. 5", "Rose Parade", "Punch and Judy",
+    "Angeles", "Cupid's Trick", "2:45 AM", "Say Yes",
+
+    # XO (14)
+    "Sweet Adeline", "Tomorrow Tomorrow", "Waltz #2 (XO)", "Baby Britain",
+    "Pitseleh", "Independence Day", "Bled White", "Waltz #1",
+    "Amity", "Oh Well, Okay", "Bottle Up and Explode!", "A Question Mark",
+    "Everybody Cares, Everybody Understands", "I Didn't Understand",
+
+    # Figure 8 (16)
+    "Son of Sam", "Somebody That I Used to Know", "Junk Bond Trader",
+    "Everything Reminds Me of Her", "Everything Means Nothing to Me",
+    "LA", "In the Lost and Found (Honky Bach)", "Stupidity Tries",
+    "Easy Way Out", "Wouldn't Mama Be Proud?", "Color Bars", "Happiness",
+    "The Gondola Man", "Pretty Mary K", "Can't Make a Sound", "Bye",
+
+    # From a Basement on the Hill (15)
+    "Coast to Coast", "Let's Get Lost", "Pretty (Ugly Before)", "Don't Go Down",
+    "Strung Out Again", "A Fond Farewell", "King's Crossing", "Ostrich & Chirping",
+    "Twilight", "A Passing Feeling", "The Last Hour", "Shooting Star",
+    "Memory Lane", "Little One", "A Distorted Reality Is Now a Necessity to Be Free"
+  )
+)
+
+# Save the structure to a file
+save(elliott_smith_lyrics, file = "elliott_smith_lyrics_scaffold.RData")
+
+
+```
+
+```{r}
+elliott_smith_lyrics <- elliott_smith_lyrics %>%
+  mutate(lyrics = c(
+    # Roman Candle (9)
+    "He played himself
+Didn't need me to give him hell
+He could be cool and cruel to you and me
+Knew we'd put up with anything
+I wanna hurt him
+I wanna give him pain
+I'm a Roman candle
+My head is full of flames
+I'm hallucinating, hallucinating
+I hear you cry
+Your tears are cheap
+Wet hot red swollen cheeks
+Fall asleep
+I wanna hurt him
+I wanna give him pain
+I'm a Roman candle
+My head is full of flames
+I wanna hurt him
+I wanna hurt him
+I wanna hurt him
+I wanna give him pain
+Make him feel this pretty burn",
+    "She took the Oldsmobile out past Condor Avenue
+She locked the car and slipped past into rhythmic quietude
+Lights burning, voice dry and hoarse
+I threw the screen door like a bastard back and forth
+The chimes fell over each other, I fell onto my knees
+The sound of the car driving off made me feel diseased
+A sick shouting like you hear at the fairground
+Now i'm picking up to put away anything of yours that's still around
+I don't know what to do with your clothes or your letters
+It'll make a whisper outta you
+She took the Oldsmobile out past Condor Avenue
+The fairgrounds lit
+A drunk man sits by the gate she's driving through
+Got his hat tipped bottle back in between his teeth
+Looks like he's buried in the sand at the beach
+I can't think about you driving off to leave barely awake
+To take a little nap while the road is straight
+I wish that car had never been discovered
+They took away the bottle and the hat he was under
+That's the one thing he could do
+And it'll make a whisper outta you
+She took the Oldsmobile out past Condor Avenue
+Cops were running around the scene looking for some kind of clue
+They never get uptight when a moth gets crushed
+Unless a lightbulb really loved him very much
+I'm lying down, blowing smoke from my cigarette
+Little whisper smoke signs that you'll never get
+You're in your Oldsmobile driving by the moon
+Headlights burning bright ahead of you
+And someone's burning out out on Condor Avenue
+Trying to make a whisper outta you
+What a shitty thing to say, did you really mean it?
+You never said a word to me about what passed between us
+So now i'm leaving you alone
+You can do whatever the hell you want to
+Na na na na na na",
+    "At a party
+He was waiting
+Looking kind of spooky and withdrawn
+Like he could be underwater
+The mighty mother with her hundred arms
+Swept all aside
+I hate to walk behind other people's ambition
+I saw you waiting
+Saint-like
+With your warning
+Leave alone
+You don't belong here
+He got nervous
+Started whistling
+Every thought a ricochet
+Did you notice?
+Well I wondered
+What's the worst thing I could say?
+Froze up and sighed
+You remind me of someone's daughter
+I forgot her
+I forgot her name, ashamed
+Go home
+And live with your pain
+Leave alone
+Leave alone, 'cause you know you don't belong
+You don't belong here
+And when I go
+Don't you follow
+Leave alone
+Leave alone, 'cause you know you don't belong
+You don't belong here
+Slip out quiet
+Nobody's looking
+Leave alone
+You don't belong here",
+    "Concrete hands picked up the telephone ring
+Do you know who you're talking to?
+No, and I don't care who
+She whispered quiet terror news
+He didn't give a hoot
+Said do what you have to do
+All she had to do was speak
+Mouthpiece to cheek
+Please say no more
+I'm lying here on the ground
+A strip of wet concrete
+Her name was just a broken sound
+A struffle step you hear when you're falling down
+Killing time won't stop this crying
+Killing time won't stop this crying
+Killing time won't stop this crying
+You better start watching what message that you send now
+No more situations I only go in to be kicked out
+He got knocked down leaning like he ran into a clothesline
+And remembered a couple of words that hid a crime
+You're just fine
+You'll be just fine
+But I'm on the other line
+Killing time won't stop this crying
+Killing time won't stop this crying
+Killing time won't stop this crying",
+    "We arrived too late
+Our mouths were opening
+I turned off the light
+So, come on, night
+You're a witness, you
+You've seen me interrupt
+A good, old-fashioned fight
+So, come on, night
+Everyone is gone
+Home to oblivion
+Home to oblivion
+Home to oblivion
+Watched the dying day
+Blushing in the sky
+Everyone is uptight
+So, come on, night
+Everyone is gone
+Home to oblivion
+Home to oblivion
+Home to oblivion
+Home to oblivion
+I know we're not
+Illegitimate
+In our hearing
+So, come on
+So, come on, night",
+    "Two dollar color pictures from a photo booth
+Dirty, stepped on, lying out on the floor of their room
+Faces fell long in the half-light
+He looks all wrong, but that's her alright
+Look at him smiling full of teeth clenched tight
+He knew the one time with the army captain
+He got over that whole deal before it happened
+And its okay I knew exactly what you meant
+When you said you were an accident
+When its three A.M. he wonders where in the hell she went
+And he'll drive all over town
+Drive all over town
+And he'll drive all over town
+Drive all over town
+Until he tracks her down
+He'll drive all over town",
+    "For a change she got out before he hurt her bad
+Took her records and clothes
+And pictures of her boy
+It really made her sad
+Packed it up and didn't look back
+I'm okay, let's just forget all about him
+The car was cold and it smelled like old cigarettes and pine
+In her bag I saw things she drew when she was nine
+Like this one here
+Her alone nobody near
+What a shame lets just not talk about it
+No, it doesn't look like you
+But you did wear cowboy boots
+That's your fame
+There's no question about it
+Once we got back inside
+With one ear to the ground
+I was ready to hide
+'Cause I don't know who's around
+And you look scared
+It's our secret do not tell okay?
+Let's just not talk about it
+Don't tell, okay?
+Let's just forget all about it",
+    "Last call, he was sick of it all
+Asleep at home
+Told you off
+And goodbye
+Well, you know one day it'll come to haunt you
+That you didn't tell him quite the truth
+You're a crisis, you're an icicle
+You're a tongue-less talker, you don't care what you say
+You're a jaywalker and you just
+Just walk away, and that's all you do
+The clap of the fading-out sound of your shoes
+Made him wonder who he thought that he knew
+Trying to crawl under my skin
+When I already shed my best defense
+It comes out all around that you won
+And I think I'm all done, you can switch me off safely
+While I'm lying here waiting for sleep to overtake me
+Yeah, yeah
+You're still here but just check to make sure
+All you aspired to do was endure
+You can't ask for more, ask for more
+Knowing you'll never get that which you ask for
+So you cast your shadow everywhere like the man in the moon
+And you start to drink, you just want to continue
+It'll all be yesteryear soon
+You start to drink, you just want to continue
+It'll all be yesteryear soon
+Church bells and now I'm awake
+And I guess it must be some kind of holiday
+I can't seem to join in the celebration
+But I'll go to the service and I'll go to pray
+And I'll sing the praises of my maker's name
+Like I was as good as she made me
+And I wanted her to tell me that she would never wake me
+I wanted her to tell me that she would never wake me
+I wanted her to tell me that she would never wake me
+I wanted her to tell me that she would never wake me
+I wanted her to tell me that she would never wake me
+I wanted her to tell me that she would never wake me
+I wanted her to tell me that she would never wake me
+I wanted her to tell me that she would never wake me
+I'm lying here waiting for sleep to overtake me
+",
+    "N/A"
+  ))
+```
