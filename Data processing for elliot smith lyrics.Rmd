@@ -22,8 +22,6 @@ elliott_smith_lyrics <- tibble(
     rep("Roman Candle", 9),
     rep("Elliott Smith", 12),
     rep("Either/Or", 12),
-    rep("XO", 14),
-    rep("Figure 8", 16),
     rep("From a Basement on the Hill", 15)  # Total: 78 rows
   ),
   song_title = c(
@@ -40,19 +38,6 @@ elliott_smith_lyrics <- tibble(
     "Speed Trials", "Alameda", "Ballad of Big Nothing", "Between the Bars",
     "Pictures of Me", "No Name No. 5", "Rose Parade", "Punch and Judy",
     "Angeles", "Cupid's Trick", "2:45 AM", "Say Yes",
-
-    # XO (14)
-    "Sweet Adeline", "Tomorrow Tomorrow", "Waltz #2 (XO)", "Baby Britain",
-    "Pitseleh", "Independence Day", "Bled White", "Waltz #1",
-    "Amity", "Oh Well, Okay", "Bottle Up and Explode!", "A Question Mark",
-    "Everybody Cares, Everybody Understands", "I Didn't Understand",
-
-    # Figure 8 (16)
-    "Son of Sam", "Somebody That I Used to Know", "Junk Bond Trader",
-    "Everything Reminds Me of Her", "Everything Means Nothing to Me",
-    "LA", "In the Lost and Found (Honky Bach)", "Stupidity Tries",
-    "Easy Way Out", "Wouldn't Mama Be Proud?", "Color Bars", "Happiness",
-    "The Gondola Man", "Pretty Mary K", "Can't Make a Sound", "Bye",
 
     # From a Basement on the Hill (15)
     "Coast to Coast", "Let's Get Lost", "Pretty (Ugly Before)", "Don't Go Down",
@@ -299,8 +284,1012 @@ I wanted her to tell me that she would never wake me
 I wanted her to tell me that she would never wake me
 I wanted her to tell me that she would never wake me
 I wanted her to tell me that she would never wake me
-I'm lying here waiting for sleep to overtake me
-",
-    "N/A"
+I'm lying here waiting for sleep to overtake me",
+    "N/A",
+  # Elliott Smith (12)
+    "Your hand on his arm
+Haystack charm around your neck
+Strung out and thin
+Calling some friend tryin' to cash some check
+He's acting dumb
+That's what you've come to expect
+Needle in the hay
+Needle in the hay
+Needle in the hay
+Needle in the hay
+He's wearing your clothes
+Head down to toes a reaction to you
+You say you know what he did
+But you idiot kid, you don't have a clue
+Sometimes they just get caught in the eye
+You're pulling him through
+Needle in the hay
+Needle in the hay
+Needle in the hay
+Needle in the hay
+Now on the bus
+Nearly touching this dirty retreat
+Falling out
+6th and Powell, a dead sweat in my teeth
+Gonna walk, walk, walk
+Four more blocks, plus the one in my brain
+Down downstairs
+To the man, he's gonna make it all okay
+I can't be myself
+I can't be myself and I don't wanna talk
+I'm taking the cure
+So I can be quiet whenever I want
+So leave me alone
+You oughta be proud that I'm getting good marks
+Needle in the hay
+Needle in the hay
+Needle in the hay
+Needle in the hay
+Needle in the hay
+Needle in the hay
+Needle in the hay
+Needle in the hay",
+    "No bad dream fucker's gonna boss me around
+Christian brothers gonna take him down
+But it can't help me get over
+Don't be cross, this sick I want
+I've seen the boss blink on and off
+Fake concerns is what's the matter, man
+And you think I ought to shake your motherfucking hand
+Well I know how much you care
+Don't be cross, this sick I want
+I've seen the boss blink on and off
+Come here by me I want you here
+Nightmares become me it's so fucking clear
+Nightmares become me it's so fucking clear",
+    "They're waking you up to close the bar
+The street's wet, you can tell by the sound of the cars
+The bartender's singing Clementine
+While hes turning around the open sign
+Dreadful sorry, Clementine
+Though youre still her man
+It seems a long time gone
+Maybe the whole thing's wrong
+What if she thinks so and just didn't say so?
+You drank yourself into slow-mo
+Made an angel in the snow
+Anything to pass the time
+And keep that song out of your mind
+Oh, my darling
+Oh, my darling
+Oh, my darling, Clementine
+Dreadful sorry, Clementine
+Dreadful sorry, Clementine",
+    "Killing a southern belle is all you know how to do
+That and give other people hell
+It's what they expect from you too
+But I wouldn't have you how you want
+I don't want to walk around
+I don't even want to breathe
+I live in a southern town
+Where all you can do is grit yr teeth
+But I wouldn't have you how you want
+How come you're not ashamed of what you are?
+And sorry that you're the one she got?
+Ain't nobody looking now
+Nobody nothing's said
+No one's about to shout
+Nobody's seen red
+But I wouldn't have you how you want
+You're killing a southern belle
+Killing a southern belle
+Killing a southern belle",
+    "Here in line
+Where stupid shit collides
+With dying shooting stars
+All we got to show what we really are
+Is the same kind of scars
+And looking at you all I see is
+You're waiting for something
+Single file
+You're a murder mile
+You idiot kid
+Your arm's got a death in it
+If you're choking up take this paper cup
+But there's a price you'll pay
+For trying hard to become whatever they are
+And saying whatever they say
+So help yourself to this bitter pill
+Or somebody else will
+Single file
+You're a murder mile
+You idiot kid
+Your arm's got a death in it
+Single file",
+    " I'm a junkyard full of false starts
+And I don't need your permission
+To bury my love under this bare light bulb
+The moon is a sickle cell
+It'll kill you in time
+Your cold white brother will ride in your blood
+Like spun glass in sore eyes
+While the moon does its division
+You're buried below
+And you're coming up roses everywhere you go
+Red roses follow
+The things that you tell yourself
+They'll kill you in time
+Your cold white brother alive in your blood
+Spinning in the night sky
+While the moon does its division
+You're buried below
+And you're coming up roses everywhere you go
+Red roses
+So you got in a kind of trouble that nobody knows
+It's coming up roses everywhere you go
+Red roses",
+    "While the hands are pointing up midnight
+You're a question mark coming after people you watched collide
+You can ask what you want to the satellite
+'Cause the names you drop put ice in my veins
+And for all you know you're the only one who finds it strange
+When they call it a lover's moon
+The satellite
+'Cause it acts just like lovers do
+The satellite
+A burned out world you know
+Staying up all night
+The satellite",
+    "Alphabet City is haunted
+Constantina feels right at home
+She probably won't say you're wrong
+But you're already wrong
+You're already wrong
+And you threw up whatever she shot down
+Said, show me around this alphabet town
+Said, show me around
+There's a name you keep repeating
+You got nothing better to do
+And you're with someone who'll hear you say it and just not mind
+Her hand on your arm, her hand on your arm
+She put her hand on your arm
+And told you her name you can't pronounce it
+I'll show you around this alphabet town
+I'll show you around this alphabet town
+I know what you are
+I just don't mind
+I won't say you're wrong
+I know what you want
+And it's what I want
+So let's go out, I'm ready to go out
+I'll show you around this alphabet town",
+    "Everything is exactly right
+When I walk around here drunk every night
+With an open container from 7-Eleven
+In St. Ides Heaven
+I've been out haunting the neighborhood
+And everybody can see I'm no good
+When I'm walking out between parked cars
+With my head full of stars
+High on amphetamines
+The moon is a light bulb breaking
+It'll go around with anyone
+But it won't come down for anyone
+You think you know what brings me down
+That I want those things you could never allow
+You see me smiling, you think it's a frown
+Turned upside down
+'Cause everyone is a fucking pro
+And they all got answers from trouble they've known
+And they all got to say what you should and shouldn't do
+Though they don't have a clue
+High on amphetamines
+The moon is a light bulb breaking
+It'll go around with anyone
+But it won't come down for anyone
+And I won't come down for anyone",
+    "A low riding junkie girl
+Rode down south to yr little world like a dream
+You can do it if you want to
+You can do it if you want to
+You can do it if you want to be like me
+I wouldn't need a hero if I wasn't such a zero
+If I wasn't such a zero
+Good to go
+All I ever see around here is things of hers that you left lying around
+It's all I ever see around here
+She kicked new york like a curse
+And you traced her footsteps in reverse up to queens
+You can do it if you want to
+You can do it if you want to
+You can do it if you want to be like me
+I wouldn't need a hero if I wasn't such a zero
+If I wasn't such a zero
+Good to go
+All I ever see around here is things of hers that you left lying around
+It's all I ever see around here
+Some empty envelopes from some other town
+It's all I ever see around here
+I'm waiting for something that's not coming",
+    "Keep your things in a place meant to hide
+But I know they're there somewhere
+And I know that's where you'll go tonight
+I'll be thrown over just like before
+The white lady loves you more
+Need a metal man just to pick up your feet
+It's a long time since you cared enough for me to even be discrete
+I know what this metal is for
+The white lady loves you more
+I'm looking at a hand full of broken plans
+And I'm tired of playing it down
+You just want her to do anything for you
+There ain't nothing that you won't allow
+You wake up in the middle of the night
+From a dream you won't remember flashing on like a cop's light
+You say she's waiting and I know what for
+The white lady loves you more",
+    "I'm waiting for the train
+The subway that only goes one way
+The stupid thing that'll come to pull us apart
+And make everybody late
+You spent everything you had
+Wanted everything to stop that bad
+And now I'm a crushed credit card registered to Smith
+Not the name that you call me with
+You turned white like a saint
+I'm tired of dancing on a pot of gold-flaked paint
+Oh, we're so very precious, you and I
+And everything that you do makes me want to die
+Oh, I just told the biggest lie
+I just told the biggest lie
+The biggest lie",
+
+    # Either/Or (12)
+    "He's pleased to meet you underneath the horse
+In the cathedral with the glass stained black
+Singing sweet, high notes that echo back
+To destroy their master
+May be a long time 'til you get the call-up
+But it's sure as fate and hard as your luck
+No one'll know where you are
+It's just a brief smile
+Crossing your face
+I'm running speed trials
+Standing in place
+When the socket's not a shock enough
+You little child, what makes you think you're tough?
+When all the people you think you're above
+They all know what's the matter
+You're such a pinball, yeah, you know it's true
+There's always something you go back running to
+To follow the path of no resistance
+It's just a brief smile
+Crossing your face
+I'm running speed trials
+Standing in place
+It's just a brief smile
+Crossing your face
+I'm running speed trials
+All over the place",
+    "You walk down Alameda
+Shuffling your deck of trick cards over everyone
+Like some precious only son
+Face down, bow to the champion
+You walk down Alameda
+Looking at the cracks in the sidewalk
+Thinking about your friends
+How you maintain all them in
+A constant state of suspense
+For your own protection over their affection
+Nobody broke your heart
+You broke your own 'cause you can't finish what you start
+Walk down Alameda
+Brushing off the nightmares
+You wish could plague me when I'm awake
+So now you see your first mistake
+Was thinking that you could relate
+For one or two minutes, she liked you
+But the fix is in
+You're all pretension, I never pay attention
+Nobody broke your heart
+You broke your own 'cause you can't finish what you start
+Nobody broke your heart
+You broke your own 'cause you can't finish what you start
+Nobody broke your heart
+You broke your own 'cause you can't finish what you start
+Nobody broke your heart
+If you're alone, it must be you that wants to be apart",
+    "Throwing candy out to the crowd
+Dragging down the main
+The helpless little thing with the dirty mouth
+Who's always got something to say
+You're sitting around at home now waiting for your brother to call
+I saw him down in the alley
+Having had enough of it all
+Said you can do what you want to whenever you want to
+You can do what you want to there's no one to stop you
+All spit and spite you're up all night and down every day
+A tired man with only hours to go just waiting to be taken away
+Getting into the back of a car for candy from some stranger
+Watching the parade with pinpoint eyes full of smoldering anger
+You can do what you want to whenever you want to
+You can do what you want to there's no one to stop you
+Now you can do what you want to whenever you want to
+Do what you want to whenever you want to
+Do what you want to whenever you want to
+Though it doesn't mean a thing
+Big nothing",
+ "Drink up, baby, stay up all night
+With the things you could do, you won't but you might
+The potential you'll be that you'll never see
+The promises you'll only make
+Drink up with me now and forget all about
+The pressure of days, do what I say
+And I'll make you okay and drive them away
+The images stuck in your head
+People you've been before
+That you don't want around anymore
+That push and shove and won't bend to your will
+I'll keep them still
+Drink up, baby, look at the stars
+I'll kiss you again between the bars
+Where I'm seeing you there with your hands in the air
+Waiting to finally be caught
+Drink up one more time and I'll make you mine
+Keep you apart, deep in my heart
+Separate from the rest where I like you the best
+And keep the things you forgot",
+    "Start stop and start
+Stupid acting smart
+Flirting with the flicks
+You say it's just for kicks
+You'll be the victim of your own dirty tricks
+You got yourself to tease and displease
+Doors swinging wide
+You walked in to hide
+Looking at your feet
+Failure's complete
+Saw you and me on the coin-op tv
+Frozen in fear every time we appear
+I'm not surprised and really, why should I be?
+See nothing wrong
+See nothing wrong
+So sick and tired of all these pictures of me
+Completely wrong
+Totally wrong
+Go walking by
+Here come another guy
+Jailer who sells personal hells
+Who'd like to see me down on my fucking knees
+Everybody's dying just to get the disease
+Hey hey hey hey
+I'm not surprised and really, why should I be?
+See nothing wrong
+See nothing wrong
+So sick and tired of all these pictures of me
+Completely wrong
+Totally wrong
+I'm not surprised and really, why should I be?
+See nothing wrong
+See nothing wrong
+So sick and tired of all these pictures of me
+Oh everybody's dying just to get the disease
+Everybody's dying just to get the disease
+Everybody's dying just to get the disease",
+    "Got bitten fingernails and a head full of the past
+And everybody's gone at last
+Sweet, sweet smile that's fading fast
+'Cause everybody's gone at last
+Don't get upset about it, no, not anymore
+There's nothing wrong that wasn't wrong before
+Had a second alone with a chance let pass
+And everybody's gone at last
+I hope you're not waiting, waiting 'round for me
+'Cause I'm not going anywhere, obviously
+Got a broken heart and your name on my cast
+And everybody's gone at last
+Everybody's gone at last",
+    "You asked me to come down and watch the parade
+To march down the street like the Duracell bunny
+With a wink and a wave from the cavalcade
+Throwing out candy that looks like money
+To people passing by that all seem to be going the other way
+Said, Won't you follow me down to the Rose Parade?
+Tripped over a dog in a choke-chain collar
+People were shouting and pushing and saying
+And I traded a smoke for a food stamp dollar
+Ridiculous marching band started playing
+Got me singing along with some half-hearted victory song
+Won't you follow me down to the Rose Parade?
+Won't you follow me down to the Rose Parade?
+Won't you follow me down to the Rose Parade?",
+    "A wallflower Punch
+Talks to Judy
+In a crowded corner where
+Anybody can listen in
+But they don't read page to page
+Or speak easy
+Now, they're gonna go say the words
+In the wrong order again
+They walk in a circle
+Through all the sidewalk scenes
+That they used to be a part of one time
+Now, everybody just stares and whispers
+Driving around
+Up and down Division Street
+I used to like it here
+It just bums me out to remember
+Can't you ever treat anyone nice?
+Think I'm gonna make the same mistake twice, oh
+They draw the curtain
+Wait for a call
+Pretty lucky if they get
+Any kind of response at all",
+    "Someone's always coming around here
+Trailing some new kill
+Says I've seen your picture on a
+Hundred-dollar bill
+What's a game of chance to you
+To him is one
+Of real skill
+So glad to meet you, Angeles
+Picking up the ticket shows there's
+Money to be made
+Go on, lose the gamble that's the
+History of the trade
+Did you add up all the cards left to play
+To zero?
+And sign up with evil, Angeles?
+Don't start me trying now
+Uh-huh, uh-huh, uh-huh
+'Cause I'm all over it, Angeles
+I can make you satisfied in
+Everything you do
+All your secret wishes could right
+Now be coming true
+And be forever with my poison arms
+Around you
+No one's gonna fool around with us
+No one's gonna fool around with us
+So glad to meet you, Angeles",
+    "She's shaking down
+I'm absent and numb from shock
+Reachin' around for the hands of the clock
+Sugar lie
+Lick me up, it's my lie
+Sugar, lick me up, it's my lie
+Sugar, lick me up, it's my lie
+Sugar, lick me up
+Cupid's trick comes down to shake and deal
+A stupid kick that makes me reel
+Sugar lie
+Lick me up, it's my lie
+Sugar, lick me up, it's my lie
+Sugar, lick me up, it's my lie
+Sugar, lick me up
+She's shaking down
+It's never over and done
+So kick me, cane me
+Then I'll know why
+Lick me up, it's my lie
+Sugar, lick me up, it's my lie
+Sugar, lick me up, it's my lie
+Sugar, lick me up",
+    "You're going out sleepwalking
+Where mute memories start talking
+The boss that couldn't help but hurt you
+And the pretty thing you made desert you
+I'm going out like a baby
+A naive, unsatisfiable baby
+Grabbin' onto whatever's around
+For the soaring high or the crushing down
+With hidden cracks that don't show
+But that constantly just grow
+I'm lookin' for the man that attacked me
+While everybody was laughin' at me
+You beat it in me, that part of you
+But I'm gonna split us back in two
+Tired of livin' in a cloud
+If you're gonna say shit now, you'll do it out loud
+It's 2:45 in the morning
+And I'm putting myself on warning
+For waking up in an unknown place
+With a recollection you half-erased
+Lookin' for somebody's arms
+To wave away past harms
+walking out on center circle
+The both of you can just fade to black
+I'm walking out on center circle
+Been pushed away and I'll never go back",
+    "I'm in love with the world
+Through the eyes of a girl
+Who's still around the morning after
+We broke up a month ago
+And I grew up, I didn't know
+I'd be around the morning after
+It's always been wait and see
+A happy day and then you pay
+And feel like shit the morning after
+But now I feel changed around
+And instead of falling down
+I'm standing up the morning after
+Situations get fucked up
+And turned around sooner or later
+I could be another fool
+Or an exception to the rule
+You tell me the morning after
+Crooked spin can't come to rest
+I'm damaged bad at best
+She'll decide what she wants
+I'll probably be the last to know
+No one says until it shows, see how it is
+They want you or they don't
+Say yes
+I'm in love with the world
+Through the eyes of a girl
+Who's still around the morning after",
+    # From a Basement on the Hill (15)
+    "Last stop for a resolution
+End of the line, is it confusion?
+So go, go see what's there for you
+Nothing new, nothing new for you to use
+I've got no new act to amuse you
+I've got no desire to use you, you know
+But anything that I could do, would never be good enough for you
+If you can't help it then just leave it alone
+Leave it alone, yeah, just forget it
+It's really easy
+I believe I'll forget it too
+Still you're keepin' me around
+Til I finally drag us both down
+Streaming feathers out your hat
+Yes I believe that's where it's at
+You belong tagging along
+And I belong in your zoo
+So I wait for confirmation
+That you're never gonna use your starting gun
+Unless its me it sounds like being here just wasn't that much fun
+Anything that I could do
+Would never be good enough for you
+If you can't help it then just leave it alone
+Leave me alone, yeah, just forget it
+It's really easy
+I'll just forget it too
+Coast to coast, coast to coast
+I'll do what I can so you can be what you do
+Coast to coast, coast to coast
+I'll do everything I can so you can be what you do
+Coast to coast, coast to coast
+Circuit rider comes every fifth Sunday
+Oh my Lord, I fell asleep one day
+Anything that I could do
+Is there anything that I could do
+That someone doesn't do for you
+That someone didn't do for you
+That I haven't already done for you",
+    "I'd been outside, invited in
+But I couldn't abide, I went missing again
+Burning every bridge that I cross
+To find some beautiful place to get lost
+I had true love, I made it die
+I pushed her away, she said, Please, stay
+Burning every bridge that I cross
+To find some beautiful place to get lost
+To find some beautiful place to get lost, ooh
+Well, I dont know where I'll go now
+And I dont really care who follows me there
+But I'll burn every bridge that I cross
+And find some beautiful place to get lost
+And find some beautiful place to get lost, ooh",
+    "Sunshine
+Been keeping me up for days
+There is no nighttime
+It's only a passing phase
+And I feel pretty
+Pretty enough for you
+I felt so ugly before
+I didn't know what to do
+Sometimes
+Is all I feel up to now
+But it's not worth it to you
+'Cause you gotta get high somehow
+Is it destruction that you require to feel?
+Like somebody wants you
+Someone that's more for real
+Sunshine
+Been keeping me up for days
+There is no nighttime
+Only a passing phase
+And I'll feel pretty
+Another hour or two
+I felt so ugly before (ugly before)
+I didn't know what to do
+I felt so ugly before (ugly before)
+I didn't know what to do
+I felt so ugly before (ugly before)
+I didn't know what to do
+Ugly before (ugly before)
+Ohh",
+    "I met a girl
+Snowball in hell
+She was scarred
+And as cracked as the Liberty Bell
+I got her to
+Come on, move in with me
+And I said I'd find a better place
+We can spend eternity
+But don't go down
+Don't go down
+Stay with me, baby stay
+Her momma called me a thief
+And her dad
+Called himself Commander in Chief
+I fought him off with my love
+But I knew the sense of worthlessness
+She'd have to rise above
+Don't go down
+Don't go down
+Stay with me, baby stay
+Don't go down
+Don't go down
+Stay with me, baby stay
+She had a dream
+Woke up in shock
+She had seen her own body
+Outlined in chalk
+And I split the scene
+The globe's been spun
+And her ghost beamed down to kiss me
+With a message from the sun
+Don't go down
+Don't go down
+Stay with me, baby stay
+Don't go down
+Stay with me, baby stay
+Don't go down
+ stay with me, baby stay",
+    "You get what you see
+I saw a rich fuck giving charity
+Saw an evil emperor
+Wearing my clothes
+They're far from the best
+But they might suit you better than the rest
+Just looking in the mirror
+Will make you a brave man
+I know my place
+Hate my face
+I know how I begin
+And how I'll end
+Strung out again
+Was a parliament of owls
+Fly over a city of canals
+Floating on the body
+Floating in the Dalles
+You get what you see
+But some things they just change invisibly
+I don't know where I'm going
+And I don't even want to know
+They're far from the best
+But they might suit you better than the rest
+Just looking in the mirror
+Will make you a brave man
+Standing, smiling
+On some fantasy island
+Looking at my lost reflection again
+But a tide's coming in
+And I'm strung out again
+Strung out again",
+    "The litebrite's now black and white
+Cause you took apart a picture that wasn't right
+Pitch burning on a shining sheet
+The only maker that you'd want to meet
+The dying man in a living room
+Who's shadow paces the floor
+Who'll take you out in the open door
+This is not my life
+It's just a fond farewell to a friend
+It's not what I'm like
+It's just a fond farewell to a friend
+Who couldn't get things right
+Fond farewell to a friend
+He said really I just want to dance
+Good and evil matched perfect it's a great romance
+I can deal with some physic pain
+If it'll slow down my higher brain
+Veins full of disappearing ink
+Vomiting in the kitchen sink
+Disconnecting from the missing link
+This is not my life
+It's just a fond farewell to a friend
+It's not what I'm like
+It's just a fond farewell to a friend
+Who couldn't get things right
+Fond farewell to a friend
+I see you're leaving me and taking up with the enemy
+The cold comfort of the in between
+A little less than a human being
+A little less than a happy high
+A little less than a suicide
+The only things that you really tried
+This is not my life
+It's just a fond farewell to a friend
+It's not what I'm like
+It's just a fond farewell to a friend
+Who couldn't get things right
+Fond farewell to a friend
+This is not my life
+It's just a fond farewell to a friend",
+    "The King's crossing was the main attraction
+Dominoes falling in a chain reaction
+The scraping subject ruled by fear told me
+Whiskey works better than beer
+The judge is on vinyl, decisions are final
+And nobody gets a reprieve
+And every wave is tidal
+If you hang around you're going to get wet
+I can't prepare for death any more than I already have
+All you can do now is watch the shells
+The game looks easy that's why it sells
+Frustrated fireworks inside your head
+Are going to stand and deliver talk instead
+The method acting that pays my bills
+Keeps the fat man feeding in Beverly Hills
+I got a heavy metal mouth, it hurls obscenity
+And I get my check from the trash treasury
+Because I took my own insides out
+It don't matter 'cause I have no sex life
+And all I wanna do now is inject my ex-wife
+I've seen the movie
+And I know what happens
+It's Christmas time
+And the needles on the tree
+A skinny Santa is bringing something to me
+His voice is overwhelming
+But his speech is slurred
+And I only understand every other word
+Open your parachute and grab your gun
+Falling down like an omen, a setting sun
+Read the part and return at five
+It's a hell of a role if you can keep it alive
+But I don't care if I fuck up
+I'm going on a date
+With a rich wife lady
+Ain't life great?
+Give me one good reason not to do it
+(Because we love you)
+So do it
+This is the place where time reverses
+And dead men talk to all the pretty nurses
+Instruments shine on a silver tray
+Don't let me get carried away
+Don't let me get carried away
+Don't let me be carried away",
+    "NA",
+    "Haven't laughed this hard in a long time
+I better stop now before I start crying
+Go off to sleep in the sunshine
+I don't want to see the day when it's dying
+She's a sight to see (sight to see)
+She's good to me (good to me)
+But I'm already somebody's baby
+She's a pretty thing (a pretty thing)
+And she knows everything (everything)
+But I'm already somebody's baby
+You don't deserve to be lonely
+But those drugs you got won't make you feel better
+Pretty soon, you'll find it's the only
+Little part of your life you're keeping together
+I'm nice to you (nice to you)
+I could make it through (make it through)
+But you're already somebody's baby
+I could make you smile (make you smile)
+If you stayed a while (stayed a while)
+But how long will you stay with me, baby?
+Because your candle burns too bright
+Well, I almost forgot it was twilight
+Even if I think that you are right
+Well, I'm tired of being down, I got no fight
+You're wonderful (wonderful)
+And it's beautiful (beautiful)
+But I'm already somebody's baby
+And if I went with you (went with you)
+I'd disappoint you too (disappoint you too)
+Well, I'm already somebody's baby
+Already somebody's baby",
+    "Everything is gone but the echo of the burst of the shell
+And I'm stuck here waiting
+For a passing feeling
+In the city I built up and blew to hell
+I'm stuck here waiting
+For a passing feeling
+Still I send all the time
+My request for relief
+Down the dead power line
+Though I'm beyond belief
+In the help I require
+Just to exist at all
+Took a long time to stand
+Took an hour to fall
+I'm stuck here waiting
+For a passing feeling
+Stuck here waiting
+For a passing feeling
+ Still I send all the time
+My request for relief
+Down the dead power line
+Though I'm beyond belief
+In the help I require
+Just to exist at all
+Took a long time to stand
+Took an hour to fall",
+    "Here's the army that you mowed to the ground
+And the bodies you left lying around
+Talking it out
+The last hour
+I'm through trying now
+It's a big relief
+I'll be staying down
+Where no one else gonna give me grief
+Mess me around
+Just make it over
+Your opinion was the law of the land
+The single thing that I could always understand
+I lived it out from hour to hour
+The only thing that never really changed
+You ran me all around
+And dragged me down
+At the end of the day
+Don't keep me around
+Just make it over
+ [Verse 1]
+Here's the army that you mowed to the ground
+And the bodies you left lying around
+Talking it out
+The last hour
+I'm through trying now
+It's a big relief
+I'll be staying down
+Where no one else gonna give me grief
+
+[Chorus 1]
+Mess me around
+Just make it over
+Your opinion was the law of the land
+The single thing that I could always understand
+I lived it out from hour to hour
+The only thing that never really changed
+You ran me all around
+And dragged me down
+At the end of the day
+Don't keep me around
+Just make it over",
+    "You made the scene like you always do
+Going up street, down the avenue
+To fuck some trophy boy that you met tonight at the bar
+So bad, so far
+You'll make him sad
+Shooting star
+When it was me, I was momentarily proud
+Drunk on dreams, now I'm glad I didn't say out loud
+You said you'd be for real but I don't believe that you are
+So bad, so far
+You made me sad
+Shooting star
+You're distant and cold and a sight to behold
+Everybody just sighs
+But no one gets on with you very long
+'Cause you don't feel bad when you lie
+Going to sleep now, going back to find square one
+Square two, beware I can deal with the shit you've just done
+It won't be soon, to say the least it's gonna be hard
+So bad, so far
+You'll love me sad
+Shooting star
+You'll love me sad
+Shooting star",
+    "This is the place you end up
+When you lose the chase
+Where you're dragged against your will
+From a basement on the hill
+And all anybody knows
+Is you're not like them
+And they kick you in the head
+And send you back to bed
+Isolation pulled you past a tunnel to a bright
+World where you can make a place to stay
+But everybody's scared of this place
+They're staying away
+Your little house on memory lane
+The mayor's name is fear
+His voice patrols the pier
+From a mountain of cliche
+That advances every day
+The doctor spoke a cloud
+He rained out loud
+You'll keep your doors and windows shut
+And swear you'll never show a soul again
+But isolation pushes you 'til every muscle aches
+Down the only road it ever takes
+But everybody's scared of this place
+They're staying away
+Your little house on memory lane
+If it's your decision to be open about yourself
+Be careful or else
+Be careful or else
+I'm comfortable apart
+It's all written on my chart
+That I take what's given me
+Most cooperatively
+I do what people say
+And lie in bed all day
+Absolutely horrified
+I hope you're satisfied
+Isolation pushes past self-hatred, guilt and shame
+To a place where suffering's just a game
+But everybody's scared of this place
+They're staying away
+Your little house on memory lane
+Your little house on memory lane",
+    "One more, little one
+I'll go down
+Stay down
+Sleep the rest of the day
+Dream new
+Music to calm down
+Stay down
+And keep evil away
+I can hear you asleep
+Changing your shape
+Dissolved in some dream
+As a new one appears
+To take you along
+Where you've never been
+One, two
+Three, four, five
+Six, seven
+The moonlight tonight
+Seems to belong to me
+Cause I (Never go to sleep)
+Even those who can’t sleep
+They need some company
+ One hit
+Wouldn't hurt a bit at all
+Slow down (Stay down)
+See what’s there to find (See what’s there today)
+If it's (If it’s)
+Good shit you won't know (gonna be)
+And I won't know (ok)
+The fact that I'm dying (all done)
+If I seem to be reckless with myself
+It's the fault of no one
+All things have a place
+Under the moon
+As well as the sun",
+    "I'm floating in a black balloon
+OD on Easter afternoon
+My mama told me
+Baby stay clean, theres no in between
+All you ladies and you gentlemen
+Between's all you've ever seen or been
+Fit poorly and and arrange the sight
+Doll it up in virgin white
+You disappoint me
+You people raking in on the world
+The devil's script sells
+You the heart of a blackbird
+Shine on me, baby
+'Cause it's raining in my heart
+Sun rising on a chopping glare
+Rain dropping acid blotter in the air
+Distorted reality's now a necessity
+To be free
+So disappointing
+First I put it all down to luck
+God knows why my
+Country don't give a fuck (fuck)
+Shine on me, baby
+'Cause it's raining in my heart
+Shine on me, baby
+'Cause it's raining in my heart"
   ))
+
+# Save the full dataset
+save(elliott_smith_lyrics, file = "elliott_smith_lyrics.RData")
+
+  
 ```
