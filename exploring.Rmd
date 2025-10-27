@@ -1,0 +1,121 @@
+---
+title: "exploring"
+author: "Faith"
+date: "2025-10-24"
+output: html_document
+---
+
+```{r}
+##libraries 
+library(tidyverse)
+library(tidytext)
+library(widyr)
+library(igraph)
+library(ggraph)
+library(tm)
+library(Rtsne)
+library(ggwordcloud)
+```
+
+```{r}
+load("elliott_smith_lyrics.RData")  
+
+
+tokens <- elliott_smith_lyrics %>%
+  unnest_tokens(word, lyrics)
+
+
+data("stop_words")
+tokens_clean <- tokens %>%
+  anti_join(stop_words, by = "word")
+
+
+word_counts <- tokens_clean %>%
+  count(word, sort = TRUE)
+
+
+head(word_counts, 20)
+
+```
+
+```{r}
+word_counts %>%
+  slice_max(n, n = 15) %>%
+  ggplot(aes(x = reorder(word, n), y = n)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +
+  labs(
+    title = "Top 15 Most Frequent Words in Elliott Smith's Lyrics",
+    x = "Word",
+    y = "Frequency"
+  ) +
+  theme_minimal()
+
+
+```
+
+```{r}
+
+tokens <- elliott_smith_lyrics %>%
+  unnest_tokens(word, lyrics) %>%
+  filter(!word %in% stop_words$word) %>%
+  filter(str_detect(word, "[a-z]"))  
+
+```
+
+```{r}
+word_pairs <- tokens %>%
+  pairwise_count(word, song_title, sort = TRUE, upper = FALSE)
+
+
+head(word_pairs, 10)
+
+```
+
+```{r}
+tokens %>% count(word, sort = TRUE)
+
+```
+
+```{r}
+filtered_pairs <- word_pairs %>% filter(n >= 8)
+
+```
+
+```{r}
+word_pairs <- tokens %>%
+  pairwise_count(word, song_title, sort = TRUE)
+
+
+filtered_pairs <- word_pairs %>%
+  filter(n >= 2)
+
+set.seed(42)
+graph <- graph_from_data_frame(filtered_pairs)
+
+ggraph(graph, layout = "fr") +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE) +
+  geom_node_point(color = "darkred", size = 4) +
+  geom_node_text(aes(label = name), repel = TRUE, size = 4) +
+  labs(title = "Word Cluster Network in Elliott Smith Lyrics") +
+  theme_minimal()
+
+```
+
+```{r}
+
+words_by_album <- elliott_smith_lyrics %>%
+  unnest_tokens(word, lyrics) %>%
+  anti_join(stop_words) %>%
+  count(album, word, sort = TRUE) %>%
+  group_by(album) %>%
+  slice_max(n, n = 100) %>%
+  ungroup()
+
+ggplot(words_by_album, aes(label = word, size = n, color = album)) +
+  geom_text_wordcloud_area(rm_outside = TRUE) +
+  facet_wrap(~ album) +
+  scale_size_area(max_size = 12) +
+  theme_minimal()
+
+```
